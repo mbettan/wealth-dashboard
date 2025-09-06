@@ -10,7 +10,7 @@ A sophisticated financial tracking dashboard that integrates seamlessly with Goo
 
 ### The Problem with Existing Tools
 
-Popular wealth management platforms like **Monarch Money**, **Ayco**, and **eMpower** excel at account aggregation and transaction tracking, but they fall short in one critical area: **customizable executive-level KPIs and strategic wealth visualization**.
+Popular wealth management platforms like **Monarch Money**, **Empower (formerly Personal Capital)**, **Tiller Money**, **You Need A Budget (YNAB)**, and **Pocketsmith** excel at account aggregation and transaction tracking, but they fall short in one critical area: **customizable executive-level KPIs and strategic wealth visualization**.
 
 ### Pain Points We Solve
 
@@ -24,7 +24,7 @@ Popular wealth management platforms like **Monarch Money**, **Ayco**, and **eMpo
 
 This dashboard provides:
 - **Instant Executive View**: See all critical wealth metrics at a glance
-- **Platform Agnostic**: Export your account balances from any tool (Monarch, Mint, Personal Capital, etc.) into a spreadsheet
+- **Platform Agnostic**: Export your account balances from any tool (Monarch Money, Empower, Tiller Money, YNAB, Pocketsmith, etc.) into a spreadsheet
 - **Fully Customizable**: Adjust metrics, benchmarks, and calculations to match your strategy
 - **Mobile Accessible**: Check your wealth metrics from any device
 - **Zero Ongoing Costs**: No subscriptions, just a one-time setup
@@ -42,7 +42,7 @@ This dashboard transforms your exported financial data into an interactive, visu
 - **Financial Independence Tracking**: Calculate and track your FI number with conservative SWR
 - **Mobile-First Design**: Access from phone, tablet, or desktop
 - **Professional UI**: Modern, dark-themed interface optimized for quick scanning
-- **Works with Any Platform**: Import data from Monarch Money, Ayco, eMpower, or manual entry
+- **Works with Any Platform**: Import data from Monarch Money, Empower (formerly Personal Capital), Tiller Money, YNAB, Pocketsmith, or manual entry
 
 ## How It Works
 
@@ -260,10 +260,25 @@ This creates a full-screen app experience without browser chrome.
 2. Export account balances as CSV
 3. Copy the values into your Google Sheet
 
-### Exporting from Ayco/eMpower
+### Exporting from Empower (formerly Personal Capital)
 1. Access your portfolio summary
 2. Export or copy account values
 3. Paste into the Google Sheet format
+
+### Exporting from Tiller Money
+1. Navigate to your accounts dashboard
+2. Export account balances
+3. Copy the values into your Google Sheet
+
+### Exporting from YNAB (You Need A Budget)
+1. Access your accounts page
+2. Export account data
+3. Paste into the Google Sheet format
+
+### Exporting from Pocketsmith
+1. Navigate to your accounts overview
+2. Export account balances as CSV
+3. Copy the values into your Google Sheet
 
 ### Manual Updates
 Simply update the values in Column B of your spreadsheet whenever you want fresh data. Many users update monthly or quarterly for strategic planning.
