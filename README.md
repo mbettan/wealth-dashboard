@@ -4,19 +4,52 @@ A sophisticated financial tracking dashboard that integrates seamlessly with Goo
 
 **Author:** Michael Bettan
 
+![Wealth Dashboard Demo](demo.png)
+
+## Why This Dashboard?
+
+### The Problem with Existing Tools
+
+Popular wealth management platforms like **Monarch Money**, **Ayco**, and **eMpower** excel at account aggregation and transaction tracking, but they fall short in one critical area: **customizable executive-level KPIs and strategic wealth visualization**.
+
+### Pain Points We Solve
+
+1. **Missing Executive Metrics**: Traditional tools focus on budgeting and spending, not sophisticated metrics like FI progress, capital efficiency ratios, or concentration risk
+2. **Lack of Customization**: Pre-built dashboards don't adapt to your specific financial strategy or goals
+3. **Poor Strategic Visualization**: No unified view of asset allocation, liquidity runway, and financial independence metrics
+4. **Platform Lock-in**: Your data is trapped in proprietary systems with limited export options
+5. **No Lightweight Solution**: Heavy applications when you just need a quick executive summary
+
+### Our Solution
+
+This dashboard provides:
+- **Instant Executive View**: See all critical wealth metrics at a glance
+- **Platform Agnostic**: Export your account balances from any tool (Monarch, Mint, Personal Capital, etc.) into a spreadsheet
+- **Fully Customizable**: Adjust metrics, benchmarks, and calculations to match your strategy
+- **Mobile Accessible**: Check your wealth metrics from any device
+- **Zero Ongoing Costs**: No subscriptions, just a one-time setup
+
 ## Overview
 
-This dashboard transforms your financial data from a Google Sheets spreadsheet into an interactive, visually appealing dashboard with key performance indicators, asset allocation charts, and financial independence tracking metrics.
+This dashboard transforms your exported financial data into an interactive, visually appealing dashboard with strategic KPIs that matter for wealth building and financial independence.
 
 ## Features
 
 - **Real-time Data Sync**: Automatically pulls data from your Google Sheets
-- **Key Metrics Dashboard**: Track total net worth, invested capital, and FI progress
-- **Interactive Asset Allocation**: Visual sunburst chart showing portfolio distribution
-- **Risk Analysis**: Monitor concentration risk and liquidity metrics
-- **Financial Independence Tracking**: Calculate and track your FI number and progress
-- **Responsive Design**: Works seamlessly as a sidebar or standalone web app
-- **Professional UI**: Modern, dark-themed interface with smooth animations
+- **Executive KPI Dashboard**: Track metrics that actually matter for wealth building
+- **Interactive Asset Allocation**: Visual sunburst chart showing true portfolio distribution
+- **Risk Analysis**: Monitor concentration risk, liquidity, and capital efficiency
+- **Financial Independence Tracking**: Calculate and track your FI number with conservative SWR
+- **Mobile-First Design**: Access from phone, tablet, or desktop
+- **Professional UI**: Modern, dark-themed interface optimized for quick scanning
+- **Works with Any Platform**: Import data from Monarch Money, Ayco, eMpower, or manual entry
+
+## How It Works
+
+1. **Export your data** from your existing wealth management tool (Monarch Money, etc.)
+2. **Paste into Google Sheets** using our simple format
+3. **View your dashboard** with executive-level KPIs instantly
+4. **Access anywhere** - desktop, tablet, or mobile phone
 
 ## Installation Instructions
 
@@ -183,12 +216,83 @@ Visual breakdown of your invested portfolio across:
 - **Portfolio Yield**: Annual income from investments
 - **Years to FI**: Projected timeline (when data available)
 
+## Mobile Access
+
+### Adding to iPhone Home Screen
+
+1. Open Safari on your iPhone
+2. Navigate to your Google Sheet
+3. Open the dashboard (🚀 Dashboard → Show Dashboard)
+4. Tap the Share button (square with arrow)
+5. Scroll down and tap "Add to Home Screen"
+6. Name it "Wealth Dashboard"
+7. Tap "Add"
+
+Now you have one-tap access to your wealth metrics!
+
+### Adding to Android Home Screen
+
+1. Open Chrome on your Android device
+2. Navigate to your Google Sheet
+3. Open the dashboard
+4. Tap the three-dot menu
+5. Select "Add to Home screen"
+6. Name it "Wealth Dashboard"
+7. Tap "Add"
+
+### Web App Deployment (Advanced Mobile Access)
+
+For the best mobile experience, deploy as a web app:
+
+1. In Apps Script, click **Deploy** → **New Deployment**
+2. Choose **Web app** as the type
+3. Set execute as **Me** and access to **Only myself**
+4. Deploy and copy the URL
+5. Open this URL on your phone
+6. Add to home screen using steps above
+
+This creates a full-screen app experience without browser chrome.
+
+## Integration with Wealth Management Tools
+
+### Exporting from Monarch Money
+1. Navigate to your Accounts page
+2. Export account balances as CSV
+3. Copy the values into your Google Sheet
+
+### Exporting from Ayco/eMpower
+1. Access your portfolio summary
+2. Export or copy account values
+3. Paste into the Google Sheet format
+
+### Manual Updates
+Simply update the values in Column B of your spreadsheet whenever you want fresh data. Many users update monthly or quarterly for strategic planning.
+
+## Use Cases
+
+### Executive Review
+- Quick morning check of key wealth metrics
+- Board or advisor meeting preparation
+- Strategic planning sessions
+
+### Financial Planning
+- Track progress toward FI number
+- Monitor asset allocation drift
+- Assess liquidity and risk metrics
+
+### Family Wealth Management
+- Share read-only dashboard with spouse
+- Track family financial goals
+- Educational tool for financial literacy
+
 ## Security & Privacy
 
 - All data stays within your Google account
 - No external servers or databases involved
 - Script only accesses the current spreadsheet
 - Uses Google's built-in security infrastructure
+- No data is sent to third parties
+- You maintain complete control of your financial information
 
 ## Support
 
